@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
@@ -5,7 +7,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  height: 1500px; 
+  height: 5500px;
   overflow-x: hidden;
   background: #000;
 }
@@ -13,7 +15,7 @@ body {
 /***************** NAVBAR ***************/
 
 .navbar {
-  background: #000;
+  background: rgba(26, 25, 25, 0.973);
   height: 60px;
   width: 100%;
   overflow: hidden;
@@ -29,9 +31,14 @@ body {
   transition: 0.3s ease-in-out;
 }
 
-.logo-nav:hover {
+.img-logo {
+  transition: 0.3s ease-in-out;
+}
+
+.img-logo:hover {
+  height: 34px;
+  width: 134px;
   opacity: 0.5;
-  box-shadow: 3px 3px 5px;
   transition: 0.3s ease-in-out;
 }
 
@@ -80,23 +87,294 @@ body {
 .logo-kena {
   position: relative;
   left: 25%;
-  top: 13%;
+  top: 15%;
 }
 
 .container-btn-header {
   display: flex;
   flex-direction: row;
-  column-gap: 65px;
+  column-gap: 95px;
   position: relative;
-  top: 20%;
+  top: 25%;
   left: 19%;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-play {
+  transition: 0.3s ease-in-out;
+}
+
+.btn-play:hover {
+  height: 185px;
+  width: auto;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-epic-game {
+  transition: 0.3s ease-in-out;
+}
+
+.btn-epic-game:hover {
+  height: 185px;
+  width: auto;
+  transition: 0.3s ease-in-out;
 }
 
 .playtrailer {
   position: relative;
-  top: 30%;
+  top: 37%;
   left: 25%;
 }
 
 /***************** TEXTE PLACE MAIN 1 ******************/
+
+.text-place-main-1 {
+  position: relative;
+  top: 70px;
+  height: auto;
+  padding: 15px;
+  width: 65%;
+  text-align: center;
+  left: 16%;
+  border-radius: 20px;
+  background: rgba(61, 59, 59, 0.459);
+}
+
+.text-main-1 {
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  vertical-align: 20px;
+  font-family: 'KenaFont', Helvetica, Arial, Lucida, sans-serif;
+  line-height: 1.8em;
+}
+
+/***************** GIF ROT ******************/
+
+.gif-rot {
+  position: relative;
+  top: 150px;
+  left: 16%;
+}
+
+.gif-rot-img {
+  border-radius: 50%;
+  height: 450px;
+  width: 450px;
+}
+
+/********************** TEXTE PLACE MAIN 2 *******************/
+
+.text-place-main-2 {
+  float: right;
+  height: auto;
+  width: 35%;
+  font-size: 24px;
+  position: relative;
+  bottom: 260px;
+  right: 240px;
+}
+
+.title-main-1 {
+  color: #fff;
+  font-size: 70px;
+  font-family: 'Trade Winds', cursive;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.text-main-2 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 1.8em;
+}
+
+/************************ CONTAINER 1 CARDS KENA *******************/
+
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  position: relative;
+  top: 350px;
+  left: 10%;
+}
+
+.card-rots-kena {
+  color: #fff;
+  background: rgba(61, 59, 59, 0.459);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.card-kena-explore {
+  color: #fff;
+  background: rgba(61, 59, 59, 0.459);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.card-kena-combat {
+  color: #fff;
+  background: rgba(61, 59, 59, 0.459);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.title-card-container-1 {
+  text-align: center;
+  font-family: 'Trade Winds', cursive;
+  margin-top: 15px;
+  position: relative;
+  bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.paragraphe-card-container-1 {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6em;
+}
+
+/********************* TEXTE PLACE MAIN 3 *****************/
+
+.text-place-main-3 {
+  position: relative;
+  top: 430px;
+  height: auto;
+  padding: 15px;
+  width: 80%;
+  text-align: center;
+  left: 9.7%;
+  border-radius: 20px;
+  background: rgba(61, 59, 59, 0.459);
+}
+
+.text-main-3 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.8em;
+  vertical-align: baseline;
+  font-family: 'KenaFont', Helvetica, Arial, Lucida, sans-serif;
+}
+
+/***************** CONTENT STORE PLAY ET EPIC GAME ********************/
+
+.line-1 {
+  position: relative;
+  top: 500px;
+  left: 180px;
+}
+
+.container-btn-store-play-epic {
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+  position: relative;
+  top: 600px;
+  left: 360px;
+}
+
+.store-img-epic-game {
+  position: relative;
+  bottom: 50px;
+}
+
+.line-2 {
+  position: relative;
+  top: 610px;
+  left: 180px;
+}
+
+/************************** BUTTON PRESS KIT *****************/
+
+.button-press-kit {
+  position: relative;
+  top: 680px;
+  left: 625px;
+}
+
+.btn-press-kit {
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border: 2px solid orange;
+  padding: 20px 35px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+
+/******************* BACKGROUND MAIN 1 ******************/
+
+.bg-main-1 {
+  background: url(./media/bg-main-1.jpg) no-repeat fixed 50% 50%;
+  background: cover;
+  height: 580px;
+  width: auto;
+  position: relative;
+  top: 780px;
+}
+
+/******************** CONTENT ABOUT US *************************/
+
+.title-main-2 {
+  float: left;
+  position: relative;
+  top: 750px;
+  left: 200px;
+  color: #fff;
+  font-size: 70px;
+  font-family: 'Trade Winds', cursive;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.logo-potion {
+  position: relative;
+  top: 950px;
+  float: left;
+  right: 100px;
+}
+
+.text-place-main-4 {
+  float: right;
+  height: 450px;
+  width: 800px;
+}
+
+.text-main-4 {
+  position: relative;
+  top: 900px;
+  right: 150px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+
+/************************* BACKGROUND MAIN 2 ********************/
+
+.bg-main-2 {
+  background: url(./media/bg-main-2.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 580px;
+  width: auto;
+  position: relative;
+  top: 1400px;
+}
+
+/*********************** CONTENT KEEP IN TOUCH ***************/
+
+.title-main-3 {
+  float: left;
+  position: relative;
+  top: 1380px;
+  left: 200px;
+  color: #fff;
+  font-size: 70px;
+  font-family: 'Trade Winds', cursive;
+  letter-spacing: 5px;
+  text-align: center;
+}
 
